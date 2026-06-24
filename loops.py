@@ -48,3 +48,13 @@ start = 1
 while start * 2  < 100:
     start = start * 2
     print(start)
+# step 9
+data = [3, 7, 2, -1, 5]
+sum_value = 0
+i = 0
+while i < len(data):
+    if data[i] == -1:
+        break
+    sum_value += data[i]
+    i += 1 
+print(sum_value)
