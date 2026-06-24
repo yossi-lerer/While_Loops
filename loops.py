@@ -16,3 +16,11 @@ while num_tot <= 10:
     total += num_tot
     num_tot += 1 
 print(total)
+# step 4
+items = [2, 4, 6, 8]
+item_i = 0
+while item_i < len(items):
+    if items[item_i] > 5:
+        print(items[item_i])
+        break
+    item_i += 1
