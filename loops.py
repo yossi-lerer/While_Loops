@@ -24,3 +24,9 @@ while item_i < len(items):
         print(items[item_i])
         break
     item_i += 1
+# step 5
+i_even = 0
+while i_even <= 10:
+    if i_even % 2 == 0:
+        print(i_even)
+    i_even += 1
