@@ -43,3 +43,8 @@ item = scores.items()
 for x in item:
     for y in x:
         print(y)
+# step 8
+start = 1
+while start * 2  < 100:
+    start = start * 2
+    print(start)
